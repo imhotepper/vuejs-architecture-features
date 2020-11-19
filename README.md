@@ -4,31 +4,39 @@ This is a sample architecture for Vue.js projects based on `features`, one folde
 
 <br>
 
-
-<img src="vue-arch-features.png" width="400px" style="text-align:center">
-
-<br><br>
-
-Packages used:
+### npm packages used:
 
 - `vuex` -  data store
 - `vue-router` - routing
 - `vue-axios` - backend calls
 - `axios-mock-adapter` - mocking api calls
 
-The `features` folder:
+<br>
+
+## Folders structure:
+
+<img src="vue-arch-features.png" width="400px" style="text-align:center">
+
+<br><br>
+
+
+
+
+
+
+### The `features` folder:
 - `feature` - one folder per feature
 - `shared` - will contain shared functionalities
     - `components` - shared components used by multiple features
     - `services` - shared services used by multiple efatures
 
-The `feature` folder structure:
+### The `feature` folder structure:
 
 - `*.vue` - files to hold the vue pages and components
 - `services.js` - file to contain all the api calls and any logic functions needed by the feature
 - `store.js` - file to contain the vuex store of the feature and only for that feature
 
-Global folders:
+### Global folders:
 
 - `router` - contains all the routes of the application
 - `store` - contains the global store where the features stores are imported and global state 
