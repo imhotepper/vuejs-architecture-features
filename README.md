@@ -1,6 +1,13 @@
 # Vue.js architecture sample: features
 
-This is a sample architecture for Vue.js projects based on features, one folder per feature. 
+This is a sample architecture for Vue.js projects based on `features`, one folder per feature. 
+
+<br>
+
+
+<img src="vue-arch-features.png" width="400px" style="text-align:center">
+
+<br><br>
 
 Packages used:
 
@@ -25,9 +32,9 @@ Global folders:
 
 - `router` - contains all the routes of the application
 - `store` - contains the global store where the features stores are imported and global state 
-- `mock-server` - contains mocks for the apis used in the application. The mocks are disabled automaticaly when ENV != development
+- `mock-server` - contains mocks for the apis used in the application. The mocks are disabled automaticaly when `environment != development`
 
-For api mocking the following axios package was used: [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter)
+For api mocking, the following axios package was used: [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter)
 
 ## Project setup
 ```
@@ -52,3 +59,9 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+<br><br>
+
+Happy coding!,<br>
+@Imhotepp
