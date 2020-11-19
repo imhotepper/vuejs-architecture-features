@@ -28,7 +28,7 @@ This is a sample architecture for Vue.js projects based on `features`, one folde
 - `feature` - one folder per feature
 - `shared` - will contain shared functionalities
     - `components` - shared components used by multiple features
-    - `services` - shared services used by multiple efatures
+    - `services` - shared services used by multiple features
 
 ### The `feature` folder structure:
 
