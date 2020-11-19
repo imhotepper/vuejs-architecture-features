@@ -40,7 +40,7 @@ This is a sample architecture for Vue.js projects based on `features`, one folde
 
 - `router` - contains all the routes of the application
 - `store` - contains the global store where the features stores are imported and global state 
-- `mock-server` - contains mocks for the apis used in the application. The mocks are disabled automaticaly when `environment != development`
+- `mock-server`(file) - contains mocks for the apis used in the application. The mocks are disabled automaticaly when `environment != development`
 
 For api mocking, the following axios package was used: [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter)
 
